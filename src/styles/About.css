@@ -1,0 +1,88 @@
+.about {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .aboutTop {
+    width: 100%;
+    height: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  }
+  
+  .aboutBottom {
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .aboutBottom p {
+    width: 80%;
+  }
+  
+  .about .aboutBottom h1 {
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 70px;
+    color: black;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+  }
+
+  .footer1 {
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin: 50px 0px;
+    /* background-color: #804747; */
+}
+
+.footerSub {
+    margin-top: 30px;
+}
+
+.footerSub>h1 {
+    font-weight: 400;
+}
+
+.footerForm {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerForm>input {
+    width: 55vh;
+    border: none;
+    border-bottom: 1px solid rgb(12, 12, 12);
+}
+
+.footerInput {
+    padding: 8px;
+    font-size: 15px;
+}
+
+.footerSubButton {
+    width: 58vh;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+

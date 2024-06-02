@@ -1,0 +1,11 @@
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+    font-family:cursive;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+    
